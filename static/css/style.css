@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color:#17252A  ;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+
+.panel-body{
+  background-color:#2B7A78 ;
+}
+
+
+
+
+.filter-list-group-item{
+  width: 730px;
+}
+
+
+
+h1{
+  text-align: center;
+  color: whitesmoke;
+
+}
+
+h4 {
+  text-align: right;
+  color:#DEF2F1;
+}
+
+h5 {
+  font-size: large;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.well {
+  background-color: #2B7A78;
+  border: none;
+}
+
+#banner {
+  background-color: #2B7A78 ;
+}
+
+#selDataset {
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row {
+  padding: 5px ;
+}
+
+#sample-metadata {
+  padding: 5px ;
+}

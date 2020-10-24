@@ -1,0 +1,49 @@
+id,country_name,country_code,series,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018
+8,Angola,AGO,Political Stability,-6,-6,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2
+8,Benin,BEN,Political Stability,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7
+8,Botswana,BWA,Political Stability,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+8,Burkina Faso,BFA,Political Stability,-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6
+8,Burundi,BDI,Political Stability,-1,0,0,0,0,6,6,6,6,6,6,6,6,6,6,-1,-1,-1,-1
+8,Cape verde,CPV,Political Stability,8,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10
+8,Cameroon,CMR,Political Stability,-5,-5,-5,-5,-5,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4
+8,Central African Republic,CAF,Political Stability,5,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,6,6,6
+8,Chad,TCD,Political Stability,-1,-1,-1,-1,-1,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2
+8,Comoros,COM,Political Stability,-1,0,4,4,6,6,9,9,9,9,9,9,9,9,9,9,9,9,-3
+8,Congo,COG,Political Stability,-6,-5,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4,-4
+8,Ivory Coast,CIV,Political Stability,4,4,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4
+8,DR Congo,COD,Political Stability,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,-3,-3,-3
+8,Equatorial Guinea,GNQ,Political Stability,-6,-6,-6,-6,-6,-6,-6,-6,-6,-6,-6,-6,-6,-6,-6,-6,-6,-6,-6
+8,Eritrea,ERI,Political Stability,-6,-7,-7,-7,-7,-7,-7,-7,-7,-7,-7,-7,-7,-7,-7,-7,-7,-7,-7
+8,Ethiopia,ETH,Political Stability,1,1,1,1,1,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,1
+8,Gabon,GAB,Political Stability,-4,-4,-4,-4,-4,-4,-4,-4,-4,3,3,3,3,3,3,3,3,3,3
+8,Gambia,GMB,Political Stability,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,4,4
+8,Ghana,GHA,Political Stability,2,6,6,6,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+8,Guinea,GIN,Political Stability,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,4,4,4,4,4,4
+8,Guinea Bissau,GNB,Political Stability,5,5,5,-1,-1,6,6,6,6,6,6,6,1,1,6,6,6,6,6
+8,Kenya,KEN,Political Stability,4,4,8,8,8,8,8,7,7,7,8,8,8,9,9,9,9,9,9
+8,Lesotho,LSO,Political Stability,6,6,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+8,Liberia,LBR,Political Stability,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,7
+8,Madagascar,MDG,Political Stability,7,7,7,7,7,7,7,7,7,0,0,3,3,3,6,6,6,6,6
+8,Malawi,MWI,Political Stability,6,4,4,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+8,Mali,MLI,Political Stability,5,5,5,5,5,7,7,7,7,7,7,7,0,5,5,5,5,5,5
+8,Mauritania,MRT,Political Stability,-6,-6,-6,-6,-6,-5,-3,4,-5,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2
+8,Mauritius,MUS,Political Stability,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10
+8,Mozambique,MOZ,Political Stability,6,4,4,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+8,Namibia,NAM,Political Stability,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+8,Niger,NER,Political Stability,-4,0,0,6,6,6,-3,-3,-3,5,5,5,5,5,6,6,6,6,6
+8,Nigeria,NGA,Political Stability,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,7,7,7,7
+8,Rwanda,RWA,Political Stability,-4,-4,-4,-3,-3,-3,-3,-3,-3,-3,-4,-4,-4,-3,-3,-3,-3,-3,-3
+8,Sao Tome and Principe,STP,Political Stability,,,,,,,,,,,,,,,,,,,
+8,Senegal,SEN,Political Stability,8,8,8,8,8,8,8,7,7,7,7,7,7,7,7,7,7,7,7
+8,Seychelles,SYC,Political Stability,,,,,,,,,,,,,,,,,,,
+8,Sierra Leone,SLE,Political Stability,0,0,5,5,5,5,5,7,7,7,7,7,7,7,7,7,7,7,7
+8,South Africa,ZAF,Political Stability,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9
+8,South Sudan,SSD,Political Stability,,,,,,,,,,,,0,0,0,0,0,0,0,0
+8,Sudan,SDN,Political Stability,-6,-6,-6,-6,-6,-3,-3,-3,-3,-3,-2,-2,-4,-4,-4,-4,-4,-4,-4
+8,Swaziland,SWZ,Political Stability,-7,-7,-7,-7,-7,-9,-9,-9,-9,-9,-9,-9,-9,-9,-9,-9,-9,-9,-9
+8,Tanzania,TZA,Political Stability,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,3,3,3,3
+8,Togo,TGO,Political Stability,-2,-2,-2,-2,-2,-4,-4,-4,-4,-4,-2,-2,-2,-2,-2,-2,-2,-2,-2
+8,Uganda,UGA,Political Stability,-4,-4,-4,-4,-4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+8,Zambia,ZMB,Political Stability,1,5,5,5,5,5,5,5,7,7,7,7,7,7,7,7,6,6,6
+8,Zimbabwe,ZWE,Political Stability,-3,-4,-4,-4,-4,-4,-4,-4,-4,1,1,1,1,4,4,4,4,4,4
+8,Sub-Saharan Africa,SSF,Political Stability,0.66,0.98,1.34,1.27,1.41,1.73,1.91,2.07,1.91,2.27,2.39,2.49,2.18,2.49,2.69,2.82,2.76,2.96,2.8

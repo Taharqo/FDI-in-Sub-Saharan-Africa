@@ -1,0 +1,190 @@
+var map = L.map('map', {
+  center: [6.385645, 22.488186],
+  zoom: 4
+})
+L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+  attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
+  tileSize: 512,
+  maxZoom: 18,
+  zoomOffset: -1,
+  id: "mapbox/streets-v11",
+  accessToken: API_KEY}).addTo(map);
+var link = "https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/africa.geojson";
+var fdi = "/fdi"
+var ci = "/ci"
+var psi = "/psi"
+var SSA= ["Angola",
+"Botswana",
+"Burundi",
+"Congo, Dem. Rep.",
+"Chad",
+"Cameroon",
+"Cote d'Ivoire",
+"Eritrea",
+"Ethiopia",
+"Gambia, The",
+"Guinea",
+"Kenya",
+"Liberia",
+"Malawi",
+"Mauritania",
+"Mozambique",
+"Niger",
+"Rwanda",
+"Benin",
+"Burkina Faso",
+"Cabo Verde",
+"Central African Republic",
+"Comoros",
+"Congo, Rep.",
+"Equatorial Guinea",
+"Eswatini",
+"Gabon",
+"Ghana",
+"Guinea-Bissau",
+"Lesotho",
+"Madagascar",
+"Mali",
+"Mauritius",
+"Namibia",
+"Nigeria",
+"Sao Tome and Principe",
+"Senegal",
+"Seychelles",
+"Sierra Leone",
+"Somalia",
+"South Africa",
+"South Sudan",
+"Sudan",
+"Tanzania",
+"Togo",
+"Uganda",
+"Zambia",
+"Zimbabwe"]
+
+// var country_list = []
+
+
+d3.json(link, function(data) {
+  console.log(data)
+
+  const country_list = data.features.map(d => {
+      if (d.properties.name == (SSA.forEach(name => name))){
+          d
+      }
+
+
+  })
+
+  const country_list = data.features.forEach(d=> {if 
+      SSA.forEach(countryName => {})
+    var place = d.properties.name
+    console.log(place)
+  })
+
+    L.geoJson(data, {
+    style: function(feature) {
+      return {
+        color: "white",
+        fillColor: "purple",
+        fillOpacity: 0.5,
+        weight: 1.5
+      };
+    },
+    onEachFeature: function(feature, layer) {
+      layer.on({
+        mouseover: function(event) {
+          layer = event.target;
+          layer.setStyle({
+            fillOpacity: 0.9
+          });
+        },
+        mouseout: function(event) {
+          layer = event.target;
+          layer.setStyle({
+            fillOpacity: 0.5
+          });
+        },
+        click: function(event) {
+          map.fitBounds(event.target.getBounds());
+        }
+      });
+      layer.bindPopup("<h1>" + feature.properties.name + "</h1>");
+    }
+  }).addTo(map);
+});
+  // var result_array = samples.filter(d=> d.id == sample)
+  // var result = result_array[0]
+  // var otu_ids = result.otu_ids;
+  // var otu_labels = result.otu_labels
+  // var sample_value = result.sample_values  
+  // var top_samples = sample_value.sort((a,b)=> b.id - a.id).slice(0,10).reverse()
+  // var filteredmeta = meta.filter(d => d.id == sample)
+  // var wfreq = filteredmeta[0]['wfreq']
+  // var result_array = samples.filter(d=> d.id == sample)
+  // var result = result_array[0]
+  // var otu_ids = result.otu_ids;
+  // var otu_labels = result.otu_labels
+  // var sample_value = result.sample_values  
+  // var top_samples = sample_value.sort((a,b)=> b.id - a.id).slice(0,10).reverse()
+  // var filteredmeta = meta.filter(d => d.id == sample)
+  // var wfreq = filteredmeta[0]['wfreq']
+var data = [{
+  type: 'bar',
+  x: 5,
+  y: 10,
+    // y: otu_ids.slice(0, 10).map(otuID => `OTU ${otuID}`).reverse(),
+  orientation: 'h'}];
+var layout = {
+  margin: {t:20, l:120}
+    }
+    //
+var trace = {
+  x: 5,
+  y: 7,
+  text: 'Placeholder',
+  mode: 'markers',
+  marker: {
+    color: 'red',
+    size: 5
+        }
+    };
+var bubbledata = [trace];
+var bubblelayout = {
+            title: "CI",
+        };
+var gaugedata = [
+    {
+    type: "indicator",
+     mode: "gauge+number+delta",
+    value: 5,
+    title: { text: "Stability", font: { size: 24 } },
+    gauge: {
+        axis: { range: [null, 10], tickwidth: 1, tickcolor: "darkblue" },
+        bar: { color: "darkblue" },
+        bgcolor: "white",
+        borderwidth: 2,
+        bordercolor: "gray",
+        steps: [
+            { range: [0, 3], color: "red" },
+            { range: [3, 7], color: "orange" },
+            { range: [7, 15], color: "green"}
+            ],
+        threshold: {
+            line: { color: "red", width: 4 },
+            thickness: 0.75,
+            value: 490
+            }
+          }
+        }
+      ];
+  var gaugelayout = {
+    width: 500,
+    height: 400,
+    margin: { t: 25, r: 25, l: 25, b: 25 },
+    paper_bgcolor: "lavender",
+    font: { color: "darkblue", family: "Arial" }
+      };
+Plotly.newPlot('bubble', bubbledata, bubblelayout)
+Plotly.newPlot('bar', data, layout);
+Plotly.newPlot('gauge', gaugedata, gaugelayout)
